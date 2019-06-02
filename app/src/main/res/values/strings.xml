@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TCO</string>
+
+    <string name="title_activity_login_page">Login</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>
