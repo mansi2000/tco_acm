@@ -4,28 +4,41 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/tco"
+        android:icon="@drawable/logo_transparent"
         android:label="TCO"
-        android:roundIcon="@drawable/tco"
+        android:roundIcon="@drawable/logo_transparent"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity" />
         <activity
             android:name=".LoginPage"
             android:label="TCO">
+
+        </activity>
+        <activity
+            android:name=".Register1"
+            android:label="Register" />
+        <activity
+            android:name=".RegisterStudent"
+            android:label="Learner Registration" />
+        <activity
+            android:name=".RegisterTrainer"
+            android:label="Trainer Registration" />
+        <activity
+            android:name=".TrainerProfile"
+            android:label="Profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Splash"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="TCO"
+            android:theme="@style/FullscreenTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".Register1"
-            android:label="Register" />
-        <activity android:name=".RegisterStudent"
-            android:label="Learner Registration"/>
-        <activity android:name=".RegisterTrainer"
-            android:label="Trainer Registeration"></activity>
     </application>
 
 </manifest>

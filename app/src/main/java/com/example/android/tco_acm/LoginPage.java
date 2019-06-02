@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class LoginPage extends AppCompatActivity {
     private Button mSendData, register1;
@@ -20,7 +21,7 @@ public class LoginPage extends AppCompatActivity {
         mSendData.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(LoginPage.this, MainActivity.class);
+                Intent i = new Intent(LoginPage.this, TrainerProfile.class);
                 startActivity(i);
                 finish();
             }
